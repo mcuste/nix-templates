@@ -42,10 +42,10 @@
 
       flake = {
         templates = {
-          # flyte-local-sandbox = { # TODO: implement this
-          #   description = "Local Flyte Sandbox";
-          #   path = ./flyte/...;
-          # };
+          flyte-local-sandbox = {
+            description = "Local Flyte Sandbox";
+            path = ./ops/flyte/local-sandbox;
+          };
         };
       };
     };
